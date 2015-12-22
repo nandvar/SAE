@@ -9,30 +9,41 @@
         <link rel="stylesheet" href="css/main.css">
         <style>
             .no-border {
-                border-bottom: none;
-                border-top: none;
+                margin-top: inherit;
+                margin-bottom: inherit;
+                margin-left: inherit;
+                margin-right: inherit;
             }
         </style>
     </head>
-    <body>
-        <header class="navigation no-border" role="banner">
+    <body class="no-border">
+        <header class="navigation" role="banner">
             <div class="navigation-wrapper">
                 <a href="#" class="logo">
-                    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt="Logo Image">
+                    <img src="img/logo.jpg" alt=x"Logo Image">
                 </a>
                 <a href="#" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
                 <nav role="navigation">
-                <ul id="js-navigation-menu" class="navigation-menu show">
-                    <li class="nav-link"><a href="#">Home</a></li>
-                    <li class="nav-link"><a href="#">Saksham</a></li>
-                    <li class="nav-link"><a href="#">Our Mentors</a></li>
-                    <li class="nav-link"><a href="#">Teams</a></li>
-                    <li class="nav-link"><a href="#">Previous Events</a></li>
-                    <li class="nav-link"><a href="#">Contact Us</a></li>
-                </ul>
+                    <ul id="js-navigation-menu" class="navigation-menu show">
+                        <li class="nav-link"><a href="#">Home</a></li>
+                        <li class="nav-link"><a href="#">Saksham</a></li>
+                        <li class="nav-link"><a href="#">Our Mentors</a></li>
+                        <li class="nav-link"><a href="#">Teams</a></li>
+                        <li class="nav-link"><a href="#">Previous Events</a></li>
+                        <li class="nav-link"><a href="#">Contact Us</a></li>
+                    </ul>
                 </nav>
             </div>
         </header>
+        <div id="js-parallax-window" class="parallax-window">
+            <div class="parallax-static-content">
+                <h1 style="color: white;">SAE COLLEGIATE CLUB NCU, GURGAON</h1>
+                <p style="color: white;">SAE is the <b>Society For Automotive Engineers</b></p>
+            </div>
+            <div id="js-parallax-background" class="parallax-background"></div>
+        </div>
+        <!-- These are to give spaces so that you can observe the parallax effect -->
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <script type="text/javascript" src="js/jscript.js"></script>
     </body>

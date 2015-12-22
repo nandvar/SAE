@@ -1,0 +1,73 @@
+.carousel{
+  position: relative;
+  width: 100%; /* width of carousel */
+  height: 230px; /* height of carousel */
+  overflow: hidden;
+}
+
+.navsemi{ /* semi circle left and right nav buttons */
+  position: absolute;
+  z-index: 1000;
+  background: #eee;
+  border: 1px solid gray;
+  font: bold 36px Arial;
+  cursor: pointer;
+  top: 67px;
+  width: 30px;
+  height: 55px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  opacity: 0.9;
+}
+
+.navsemi:hover{
+  background: #D8D8D8;
+}
+
+.navsemi span{
+  position: relative;
+  top: 7px;
+  left: 3px;
+}
+
+.navsemi.right{
+  right: 0;
+  border-radius: 0;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;  
+}
+
+.navsemi.right span{
+  left: 8px;
+}
+
+.belt{
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #252525;
+  transition: left 0.2s ease-in-out;
+  white-space: nowrap;
+}
+
+
+.content{
+  min-width: 100px; /* minimum width */
+  padding: 5px;
+  color: white;
+  display: inline-block;
+  transition: all 0.2s ease-in; /* transition setting. Actual time set by script (options.bouncetime) */
+}
+
+.content:hover{
+  background: black;
+}
+
+.content a{
+  border-width: 0;
+}
+
+.content img{
+  display: block;
+  margin-bottom: 5px;
+}
